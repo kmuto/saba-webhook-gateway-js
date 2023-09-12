@@ -9,6 +9,7 @@
   "main": "dest/index.js",
   "type": "module",
   "scripts": {
+    "build": "npx tsc",
     "prepublish": "npm run --if-present build"
   },
   "author": "Kenshi Muto <kmuto@kmuto.jp>",
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kmuto/saba-webhook-gateway-js/issues"
   },
-  "homepage": "https://github.com/kmuto/saba-webhook-gateway-js#readme"
+  "homepage": "https://github.com/kmuto/saba-webhook-gateway-js#readme",
   "devDependencies": {
     "@types/node": "^20.6.0",
     "@types/strftime": "^0.9.4",
