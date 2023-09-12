@@ -1,15 +1,22 @@
 {
   "name": "@kmuto/saba-webhook-gateway",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "keywords": [
+    "mackerel",
+    "webhook"
+  ],
+  "description": "Mackerel Webhook Gateway for something services",
+  "main": "dest/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run --if-present build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kenshi Muto <kmuto@kmuto.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmuto/saba-webhook-gateway-js/issues"
+  },
+  "homepage": "https://github.com/kmuto/saba-webhook-gateway-js#readme"
   "devDependencies": {
     "@types/node": "^20.6.0",
     "@types/strftime": "^0.9.4",
